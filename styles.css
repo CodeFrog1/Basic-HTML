@@ -1,0 +1,27 @@
+h1 {
+    text-align:center;
+}
+
+p {
+    color:rgb(45, 170, 62);
+}
+
+.navi{
+    border:5px dotted;
+    list-style:none;
+    width:50%;
+    margin:auto;
+    text-align:center;
+    padding-left:0;
+}
+
+.navi>li {
+    display:inline-block;
+    border-style:outset;
+    border-radius:3px;
+
+}
+
+.navi>li>a:hover{
+    color:green;
+}
